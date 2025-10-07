@@ -1,0 +1,18 @@
+.schedule-section {
+    color: var(--primary-font-color);
+    margin-top: 30px;
+}
+
+.frequency-list {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: nowrap;
+    overflow-y: scroll;
+}
+
+.frequency-list li {
+    padding: 15px;
+    background-color: var(--secondary-color);
+    border-radius: var(--border-min);
+}
