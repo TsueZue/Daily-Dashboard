@@ -12,7 +12,7 @@
 }
 
 .frequency-list li {
-    padding: 15px;
+    padding: 10px;
     background-color: var(--secondary-color);
     border-radius: var(--border-min);
 }
