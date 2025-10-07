@@ -26,13 +26,13 @@ header::after {
     background-color: var(--secondary-color);
     border-radius: var(--border-min);
     color: var(--primary-font-color);
-    padding: 0.938rem;
+    padding: 0.625rem;
 }
 
 .create-habit {
     background-color: var(--main-color);
     border-radius: var(--border-min);
     color: var(--primary-font-color);
-    padding: 0.938rem;
+    padding: 0.625rem;
 }
 
