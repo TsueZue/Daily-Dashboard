@@ -1,0 +1,38 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+header::after {
+    background-color: var(--secondary-color);
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 0.063rem;
+    bottom: -1.25rem;
+}
+
+.date-selector {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.313rem;
+    height: 3.125rem;
+}
+
+.date-selector li {
+    background-color: var(--secondary-color);
+    border-radius: var(--border-min);
+    color: var(--primary-font-color);
+    padding: 0.938rem;
+}
+
+.create-habit {
+    background-color: var(--main-color);
+    border-radius: var(--border-min);
+    color: var(--primary-font-color);
+    padding: 0.938rem;
+}
+
