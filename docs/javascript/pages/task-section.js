@@ -13,11 +13,22 @@ frequenceArray.forEach(function(item) {
 
 // 
 
-let counter = document.querySelectorAll('.dot li')
-let counterArray = Array.from(counter)
 
-counterArray.forEach(function(item) {
-    item.addEventListener('click', () => {
-        item.classList.toggle('color')
-    })  
-})
+    let counter = document.querySelectorAll('.dot li')
+    let counterArray = Array.from(counter)
+
+    let num = document.querySelector('.num')
+    let i = 1
+
+
+    counterArray.forEach(function(item) {
+        item.addEventListener('click', () => {
+
+            if(i <= 7) {
+                num.textContent = i++
+                item.classList.add('color')
+            } else {
+                console.log('break')
+            }
+        })
+    })
