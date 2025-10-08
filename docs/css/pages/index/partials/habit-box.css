@@ -1,0 +1,47 @@
+.habit-box {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: var(--secondary-color);
+    border-radius: var(--border-max);
+}
+
+.habit-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.habit-edit {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: var(--border-min);
+    gap: 10px;
+    background-color: var(--primary-color);
+    color: var(--secondary-font-color);
+}
+
+h2 {
+    color: var(--secondary-font-color);
+}
+
+.counter ul {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.counter li {
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    background-color: var(--main-color);
+}
+
+.counter li:last-child {
+    display: flex;
+    width: 50px;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}

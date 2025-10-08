@@ -1,6 +1,9 @@
 @import "../../global/global.css";
 @import "./partials/header.css";
 @import "./partials/task-section.css";
+@import "./partials/list-section.css";
+@import "./partials/habit-box.css";
+
 
 
 
