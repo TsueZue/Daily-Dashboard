@@ -5,6 +5,7 @@ nav {
     background-color: var(--secondary-color);
     left: 0px;
     padding: 20px;
+    box-sizing: border-box;
     color: white;
 }
 nav ul {
