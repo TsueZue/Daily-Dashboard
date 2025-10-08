@@ -16,3 +16,7 @@
     background-color: var(--secondary-color);
     border-radius: var(--border-min);
 }
+
+.cor {
+    background-color: var(--main-color) !important;
+}
