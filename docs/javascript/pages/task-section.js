@@ -5,9 +5,19 @@ frequenceArray.forEach(function(item) {
 
     item.addEventListener('click', () => {   
         frequenceArray.forEach(item => {
-            item.classList.remove('cor')
+            item.classList.remove('color')
         })
-        item.classList.add('cor')
+        item.classList.add('color')
     })
 })
 
+// 
+
+let counter = document.querySelectorAll('.dot li')
+let counterArray = Array.from(counter)
+
+counterArray.forEach(function(item) {
+    item.addEventListener('click', () => {
+        item.classList.toggle('color')
+    })  
+})
